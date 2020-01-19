@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class ballHandler : MonoBehaviour
 {
-
+    public Transform boomObj;
     public float ballSpeed = 20.0f;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +28,12 @@ public class ballHandler : MonoBehaviour
             Vector2 dir = new Vector2(x, 1).normalized;
 
             GetComponent<Rigidbody2D>().velocity = dir * ballSpeed;
+        }
+
+        if (collision.gameObject.name == "deathBounds")
+        {
+            Instantiate(boomObj, transform.position, boomObj.rotation);
+            Destroy(gameObject);
         }
     }
 }

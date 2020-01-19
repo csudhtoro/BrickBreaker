@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\ballHandler.cs" />
     <Compile Include="Assets\Scripts\blockhandler.cs" />
     <Compile Include="Assets\Scripts\racketHandler.cs" />
+    <Compile Include="Assets\Scripts\selfDestroy.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>P:/Programming Projects/Unity Games/BrickBreaker/BrickBreaker/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
