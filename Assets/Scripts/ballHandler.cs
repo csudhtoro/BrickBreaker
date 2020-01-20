@@ -5,13 +5,23 @@ using UnityEngine;
 public class ballHandler : MonoBehaviour
 {
     public Transform boomObj;
+    TrailRenderer ballTrail;
     public float ballSpeed = 20.0f;
-
+    Rigidbody2D thisBallMass;
+    Collider2D thisBallCollision;
 
     // Start is called before the first frame update
     void Start()
     {
+        thisBallMass = gameObject.GetComponent<Rigidbody2D>();
+        thisBallCollision = gameObject.GetComponent<Collider2D>();
         GetComponent<Rigidbody2D>().velocity = Vector2.up * ballSpeed;
+        ballTrail = gameObject.GetComponent<TrailRenderer>();
+    }
+
+    private void FixedUpdate()
+    {
+        
     }
 
     float hitFactor(Vector2 ballPos, Vector2 paddlePos, float paddleWidth)
@@ -35,5 +45,25 @@ public class ballHandler : MonoBehaviour
             Instantiate(boomObj, transform.position, boomObj.rotation);
             Destroy(gameObject);
         }
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.name == "metalBall")
+        {
+            Physics2D.IgnoreCollision(collision, thisBallCollision);
+        }
+    }
+
+    void increaseSpeed()
+    {
+        ballSpeed = ballSpeed * 1.2f;
+        ballTrail.emitting = true;
+    }
+
+    void indestructable()
+    {
+        thisBallCollision.isTrigger = true;
     }
 }

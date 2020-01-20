@@ -158,9 +158,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &19485605
 BoxCollider2D:
@@ -289,9 +295,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &78467589
 BoxCollider2D:
@@ -420,9 +432,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &98135896
 BoxCollider2D:
@@ -551,9 +569,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &177499303
 BoxCollider2D:
@@ -682,9 +706,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &248405058
 BoxCollider2D:
@@ -813,9 +843,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &297310674
 BoxCollider2D:
@@ -944,9 +980,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &451753241
 BoxCollider2D:
@@ -1075,9 +1117,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &495542741
 BoxCollider2D:
@@ -1206,9 +1254,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &516579096
 BoxCollider2D:
@@ -1420,9 +1474,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &529995280
 BoxCollider2D:
@@ -1551,9 +1611,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &576725533
 BoxCollider2D:
@@ -1682,9 +1748,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &644436259
 BoxCollider2D:
@@ -1885,7 +1957,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1000
-  m_LinearDrag: 25
+  m_LinearDrag: 30
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -1957,9 +2029,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &734920583
 BoxCollider2D:
@@ -2061,6 +2139,7 @@ GameObject:
   - component: {fileID: 763693937}
   - component: {fileID: 763693936}
   - component: {fileID: 763693938}
+  - component: {fileID: 763693939}
   m_Layer: 0
   m_Name: border_right
   m_TagString: Untagged
@@ -2157,6 +2236,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.06, y: 2.3}
   m_EdgeRadius: 0
+--- !u!114 &763693939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763693935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc89b561742e50146bae72a3490c5392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &879330164
 GameObject:
   m_ObjectHideFlags: 0
@@ -2195,9 +2286,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &879330166
 BoxCollider2D:
@@ -2326,9 +2423,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &880942243
 BoxCollider2D:
@@ -2457,9 +2560,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &917309327
 BoxCollider2D:
@@ -2677,9 +2786,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!1 &1171695928
 GameObject:
@@ -2719,9 +2834,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &1171695930
 BoxCollider2D:
@@ -2823,6 +2944,7 @@ GameObject:
   - component: {fileID: 1177858559}
   - component: {fileID: 1177858558}
   - component: {fileID: 1177858560}
+  - component: {fileID: 1177858561}
   m_Layer: 0
   m_Name: border_top
   m_TagString: Untagged
@@ -2919,6 +3041,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.2, y: 0.07}
   m_EdgeRadius: 0
+--- !u!114 &1177858561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177858557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc89b561742e50146bae72a3490c5392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1251313318
 GameObject:
   m_ObjectHideFlags: 0
@@ -2957,9 +3091,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &1251313320
 BoxCollider2D:
@@ -3088,9 +3228,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &1319870734
 BoxCollider2D:
@@ -3219,9 +3365,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &1339150161
 BoxCollider2D:
@@ -3350,9 +3502,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &1417512642
 BoxCollider2D:
@@ -3481,9 +3639,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &1480521624
 BoxCollider2D:
@@ -3585,7 +3749,6 @@ GameObject:
   - component: {fileID: 1708071649}
   - component: {fileID: 1708071648}
   - component: {fileID: 1708071647}
-  - component: {fileID: 1708071650}
   m_Layer: 0
   m_Name: deathBounds
   m_TagString: Untagged
@@ -3682,21 +3845,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1708071650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1708071646}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4923033e00a7789418b48355d7b1d299, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sizeUpObj: {fileID: 0}
-  sizeDownObj: {fileID: 0}
-  speedUpObj: {fileID: 0}
 --- !u!1 &1778001900
 GameObject:
   m_ObjectHideFlags: 0
@@ -3708,6 +3856,7 @@ GameObject:
   - component: {fileID: 1778001902}
   - component: {fileID: 1778001901}
   - component: {fileID: 1778001903}
+  - component: {fileID: 1778001904}
   m_Layer: 0
   m_Name: border_left
   m_TagString: Untagged
@@ -3804,6 +3953,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.06, y: 2.3}
   m_EdgeRadius: 0
+--- !u!114 &1778001904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778001900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc89b561742e50146bae72a3490c5392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1800164907
 GameObject:
   m_ObjectHideFlags: 0
@@ -3842,9 +4003,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &1800164909
 BoxCollider2D:
@@ -3973,9 +4140,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &1803329589
 BoxCollider2D:
@@ -4079,6 +4252,7 @@ GameObject:
   - component: {fileID: 1839756431}
   - component: {fileID: 1839756432}
   - component: {fileID: 1839756433}
+  - component: {fileID: 1839756434}
   m_Layer: 0
   m_Name: metalBall
   m_TagString: ball
@@ -4200,6 +4374,111 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boomObj: {fileID: 428543774161735864, guid: 7ef5cbdf5686a3a419ed05bae2d2d2b5, type: 3}
   ballSpeed: 7
+--- !u!96 &1839756434
+TrailRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839756428}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10308, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Time: 0.3
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 1
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.004337311
+        value: 0.31428146
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: -1.0769088
+        outSlope: -1.0769088
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.20866147
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 0.8207547, g: 0.4275884, b: 0.14324492, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 58596
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    shadowBias: 0.2
+    generateLightingData: 0
+  m_MinVertexDistance: 0.1
+  m_Autodestruct: 0
+  m_Emitting: 0
 --- !u!1 &1888342957
 GameObject:
   m_ObjectHideFlags: 0
@@ -4238,9 +4517,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &1888342959
 BoxCollider2D:
@@ -4369,9 +4654,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &1970007093
 BoxCollider2D:
@@ -4500,9 +4791,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &2009089465
 BoxCollider2D:
@@ -4631,9 +4928,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &2052375650
 BoxCollider2D:
@@ -4762,9 +5065,15 @@ MonoBehaviour:
     type: 3}
   speedUpObj: {fileID: 2405983797944825260, guid: 65a4190b00be85e49ae14331338afa49,
     type: 3}
+  slowDownObj: {fileID: 2405983797944825260, guid: a08d6903ea2f9f743965c6f1e0ba2f80,
+    type: 3}
   instaKillObj: {fileID: 2405983797944825260, guid: c77499fd928a09f4e9139c34009589a4,
     type: 3}
   rocketBallObj: {fileID: 2405983797944825260, guid: 2e0f4f19aed49f24bad1b31668f60ee7,
+    type: 3}
+  multiBallObj: {fileID: 2405983797944825260, guid: cccc65788b4e4b949bb4b4f72d85ac86,
+    type: 3}
+  indestructableObj: {fileID: 2405983797944825260, guid: 68a371b83391fac48adc7ad36af133cc,
     type: 3}
 --- !u!61 &2126390299
 BoxCollider2D:
