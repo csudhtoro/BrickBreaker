@@ -14,6 +14,7 @@ public class blockhandler : MonoBehaviour
     public Transform rocketBallObj;
     public Transform multiBallObj;
     public Transform indestructableObj;
+    public Transform slowBallObj;
     bool triggerOn = false;
 
     // Start is called before the first frame update
@@ -31,8 +32,8 @@ public class blockhandler : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Random random = new Random();
-        //int whichPowerUp = Random.Range(0, 8);
-        int whichPowerUp = 7;
+        int whichPowerUp = Random.Range(5, 7);
+        //int whichPowerUp = 6;
 
 
         Instantiate(boomObj, transform.position, boomObj.rotation);
@@ -69,16 +70,22 @@ public class blockhandler : MonoBehaviour
         }
         else if (whichPowerUp == 6)
         {
-            Instantiate(slowDownObj, transform.position, slowDownObj.rotation);
+            Instantiate(slowBallObj, transform.position, slowBallObj.rotation);
+
         }
         else if (whichPowerUp == 7)
+        {
+            Instantiate(slowDownObj, transform.position, slowDownObj.rotation);
+        }
+        
+        else if (whichPowerUp == 8)
         {
             Instantiate(indestructableObj, transform.position, indestructableObj.rotation);
             triggerOn = true;
         }
 
     }
-    //NOT WORKING PROPERLY
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.name == "ball")

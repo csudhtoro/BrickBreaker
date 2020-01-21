@@ -47,7 +47,7 @@ public class ballHandler : MonoBehaviour
         }
         
     }
-
+    //NOT WORKING PROPERLY. BALLS STILL HIT EACH OTHER
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.name == "metalBall")
@@ -62,8 +62,19 @@ public class ballHandler : MonoBehaviour
         ballTrail.emitting = true;
     }
 
+    void decreaseSpeed()
+    {
+        ballSpeed = ballSpeed / 2f;
+    }
+
+
     void indestructable()
     {
         thisBallCollision.isTrigger = true;
+    }
+
+    void normalizeBallSpeed()
+    {
+        ballSpeed = 7;
     }
 }
