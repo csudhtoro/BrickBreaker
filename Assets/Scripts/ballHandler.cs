@@ -19,11 +19,6 @@ public class ballHandler : MonoBehaviour
         ballTrail = gameObject.GetComponent<TrailRenderer>();
     }
 
-    private void FixedUpdate()
-    {
-        
-    }
-
     float hitFactor(Vector2 ballPos, Vector2 paddlePos, float paddleWidth)
     {
         return (ballPos.x - paddlePos.x) / paddleWidth;
@@ -47,14 +42,6 @@ public class ballHandler : MonoBehaviour
         }
         
     }
-    //NOT WORKING PROPERLY. BALLS STILL HIT EACH OTHER
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if(collision.gameObject.name == "metalBall")
-        {
-            Physics2D.IgnoreCollision(collision, thisBallCollision);
-        }
-    }
 
     void increaseSpeed()
     {
@@ -62,19 +49,18 @@ public class ballHandler : MonoBehaviour
         ballTrail.emitting = true;
     }
 
-    void decreaseSpeed()
-    {
-        ballSpeed = ballSpeed / 2f;
-    }
+    void decreaseSpeed() { ballSpeed = ballSpeed / 2f; }
+    void indestructable() { thisBallCollision.isTrigger = true; }
+    void normalizeBall() { thisBallCollision.isTrigger = false; }
+    void normalizeBallSpeed(){ballSpeed = 7; }
 
 
-    void indestructable()
+    //NOT WORKING PROPERLY. BALLS STILL HIT EACH OTHER
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        thisBallCollision.isTrigger = true;
-    }
-
-    void normalizeBallSpeed()
-    {
-        ballSpeed = 7;
+        if (collision.gameObject.name == "metalBall")
+        {
+            Physics2D.IgnoreCollision(collision, thisBallCollision);
+        }
     }
 }

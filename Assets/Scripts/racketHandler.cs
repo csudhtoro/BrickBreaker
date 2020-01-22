@@ -5,11 +5,13 @@ using UnityEngine;
 public class racketHandler : MonoBehaviour
 {
 
-    public string axis = "Horizontal";
-    public float paddleSpeed = 150;
+    GameObject ball;
     GameObject[] balls;
     Collider2D ballCollision;
-    public int counter = 0;
+
+    public string axis = "Horizontal";
+    public float paddleSpeed = 150;
+    
 
     private void Start()
     {
@@ -30,46 +32,27 @@ public class racketHandler : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "sizeDown(Clone)") shrinkPaddle();
+        if (ball == null) balls = GameObject.FindGameObjectsWithTag("ball");
+        
 
-        else if (collision.gameObject.name == "sizeUp(Clone)") enlargePaddle();
+        if (collision.gameObject.name == "shrinkPaddleBlockObj(Clone)") shrinkPaddle();
+        else if (collision.gameObject.name == "enlargePaddleBlockObj(Clone)") enlargePaddle();
+        else if (collision.gameObject.name == "slowPaddleDownBlockObj(Clone)") slowPaddleDown();
+        else if (collision.gameObject.name == "speedPaddleUpBlockObj(Clone)") speedPaddleUp();
+        else if (collision.gameObject.name == "slowBallDownBlockObj(Clone)") slowBallsDown();
+        else if (collision.gameObject.name == "speedBallUpBlockObj(Clone)") speedBallsUp();
+        //else if (collision.gameObject.name == "indestructibleBallBlockObj(Clone)") indestructibleBall();
 
-        else if (collision.gameObject.name == "slowDown(Clone)") slowPaddleDown();
-
-        else if (collision.gameObject.name == "speedUp(Clone)") speedPaddleUp();
-
-        else if (collision.gameObject.name == "slowBall(Clone)") slowBallsDown();
-
-
-        //TODO:REFACTOR THIS CODE AS WELL
-        else if (collision.gameObject.name == "rocketBall(Clone)")
-        {
-            foreach (GameObject ballobj in balls)
-            {
-                ballobj.SendMessage("increaseSpeed", 0.5f, SendMessageOptions.RequireReceiver);
-            }
-        }
-
-        //TODO: Refactor this code as well
-        else if (collision.gameObject.name == "indestructable(Clone)")
-        {
-            foreach (GameObject ballobj in balls)
-            {
-                ballobj.SendMessage("indestructable", 0.5f, SendMessageOptions.RequireReceiver);
-            }
-        }
-
-        else if (collision.gameObject.name == "multiBall(Clone)")
+        else if (collision.gameObject.name == "multiBallBlockObj(Clone)")
         {
             foreach (GameObject ballObj in balls)
             {
                 Instantiate(ballObj);
-                balls = GameObject.FindGameObjectsWithTag("ball");
             }
-            Debug.Log(balls.Length);
+            balls = GameObject.FindGameObjectsWithTag("ball");
         }
-        
-        else if (collision.gameObject.name == "instaKill(Clone)")
+
+        else if (collision.gameObject.name == "instaKillBlockObj(Clone)")
         {
             Destroy(gameObject);
         }
@@ -80,8 +63,6 @@ public class racketHandler : MonoBehaviour
             ballCollision.isTrigger = false;
         }
     }
-
-
 
 
     //Functions modifying the Paddle
@@ -103,10 +84,8 @@ public class racketHandler : MonoBehaviour
         Invoke("normalizePaddleSize", 7);
     }
 
-    void normalizePaddleSize()
-    {
-        GetComponent<Transform>().localScale = new Vector2(0.47f, 0.488f);
-    }
+    void normalizePaddleSize() { GetComponent<Transform>().localScale = new Vector2(0.47f, 0.488f); }
+  
 
     void speedPaddleUp()
     {
@@ -126,10 +105,8 @@ public class racketHandler : MonoBehaviour
         Invoke("normalizePaddleSpeed", 7);
     }
 
-    void normalizePaddleSpeed()
-    {
-        paddleSpeed = 13;
-    }
+    void normalizePaddleSpeed() { paddleSpeed = 13; }
+
 
 
 
@@ -143,12 +120,32 @@ public class racketHandler : MonoBehaviour
         Invoke("normalizeBallSpeeds", 5);
     }
 
+    void speedBallsUp()
+    {
+        foreach (GameObject ballobj in balls)
+        {
+            ballobj.SendMessage("increaseSpeed", 0.5f, SendMessageOptions.RequireReceiver);
+        }
+        Invoke("normalizeBallSpeeds", 5);
+    }
+
     void normalizeBallSpeeds()
     {
         foreach (GameObject ballobj in balls)
         {
             ballobj.SendMessage("normalizeBallSpeed", 0.5f, SendMessageOptions.RequireReceiver);
+            ballobj.GetComponent<TrailRenderer>().emitting = false;
         }
     }
+
+    /*    //NOT WORKING PROPERLY
+    void indestructibleBall()
+    {
+        foreach (GameObject ballobj in balls)
+        {
+            ballobj.SendMessage("indestructable", 0.5f, SendMessageOptions.RequireReceiver);
+        }
+        Invoke("normalizeBall", 5);
+    }*/
 }
 

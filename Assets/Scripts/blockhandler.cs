@@ -6,83 +6,65 @@ public class blockhandler : MonoBehaviour
 {
 
     public Transform boomObj;
-    public Transform sizeUpObj;
-    public Transform sizeDownObj;
-    public Transform speedUpObj;
-    public Transform slowDownObj;
-    public Transform instaKillObj;
-    public Transform rocketBallObj;
-    public Transform multiBallObj;
-    public Transform indestructableObj;
-    public Transform slowBallObj;
+    public Transform enlargePaddleBlockObObj;
+    public Transform shrinkPaddleBlockObj;
+    public Transform speedPaddleUpBlockObj;
+    public Transform slowPaddleDownBlockObj;
+    public Transform instaKillBlockObj;
+    public Transform speedBallUpBlockObj;
+    public Transform multiBallBlockObj;
+    public Transform indestructibleBlockObj;
+    public Transform slowBallDownBlockObj;
     bool triggerOn = false;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void FixedUpdate()
-    {
-        
-    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Random random = new Random();
-        int whichPowerUp = Random.Range(5, 7);
-        //int whichPowerUp = 6;
-
+        int whichPowerUp = Random.Range(0, 30);
 
         Instantiate(boomObj, transform.position, boomObj.rotation);
         Destroy(gameObject);
 
-        if (whichPowerUp == 0) {
-            //Debug.Log(whichPowerUp + " : sizeUp");
-            Instantiate(sizeUpObj, transform.position, sizeUpObj.rotation);
-        }
-        else if (whichPowerUp == 1)
-        {
-            //Debug.Log(whichPowerUp + " : speedUp");
-            Instantiate(speedUpObj, transform.position, speedUpObj.rotation);
-        }
-        else if(whichPowerUp == 2)
-        {
-            //Debug.Log(whichPowerUp + " : sizeDown");
-            Instantiate(sizeDownObj, transform.position, sizeDownObj.rotation);
-        }
-        else if (whichPowerUp == 3)
-        {
-            //Debug.Log(whichPowerUp + " : instaKill");
-            Instantiate(instaKillObj, transform.position, instaKillObj.rotation);
-        }
-        else if (whichPowerUp == 4)
-        {
-            //Debug.Log(whichPowerUp + " : rocketball");
-            Instantiate(rocketBallObj, transform.position, rocketBallObj.rotation);
-        }
-        else if (whichPowerUp == 5)
-        {
-            //Debug.Log(whichPowerUp + " : multiBallObj");
-            Instantiate(multiBallObj, transform.position, multiBallObj.rotation);
-        }
-        else if (whichPowerUp == 6)
-        {
-            Instantiate(slowBallObj, transform.position, slowBallObj.rotation);
+        switch (whichPowerUp) {
 
+            case 0:
+                Instantiate(enlargePaddleBlockObObj, transform.position, enlargePaddleBlockObObj.rotation);
+                break;
+
+            case 1:
+                Instantiate(speedBallUpBlockObj, transform.position, speedBallUpBlockObj.rotation);
+                break;
+
+            case 2:
+                Instantiate(shrinkPaddleBlockObj, transform.position, shrinkPaddleBlockObj.rotation);
+                break;
+
+            case 3:
+                Instantiate(instaKillBlockObj, transform.position, instaKillBlockObj.rotation);
+                break;
+
+            case 4:
+                Instantiate(speedBallUpBlockObj, transform.position, speedBallUpBlockObj.rotation);
+                break;
+
+            case 5:
+                Instantiate(multiBallBlockObj, transform.position, multiBallBlockObj.rotation);
+                break;
+
+            case 6:
+                Instantiate(slowBallDownBlockObj, transform.position, slowBallDownBlockObj.rotation);
+                break;
+
+            case 7:
+                Instantiate(slowPaddleDownBlockObj, transform.position, slowPaddleDownBlockObj.rotation);
+                break;
+
+            case 8:
+                Instantiate(indestructibleBlockObj, transform.position, indestructibleBlockObj.rotation);
+                break;
         }
-        else if (whichPowerUp == 7)
-        {
-            Instantiate(slowDownObj, transform.position, slowDownObj.rotation);
-        }
-        
-        else if (whichPowerUp == 8)
-        {
-            Instantiate(indestructableObj, transform.position, indestructableObj.rotation);
-            triggerOn = true;
-        }
+
 
     }
 
