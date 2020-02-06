@@ -1,4 +1,4 @@
 # BrickBreaker
 Unity Physics-based Brick Breaker Game
 
-<img src="https://i59.photobucket.com/albums/g318/Csudhtoro/ezgif-3-d73a5c72e5f6.gif" border="0" alt=" photo ezgif-3-d73a5c72e5f6.gif"/>
+<a href="https://imgflip.com/gif/3obmra"><img src="https://i.imgflip.com/3obmra.gif" title="made at imgflip.com"/></a>
