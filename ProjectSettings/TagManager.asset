@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - ball
+  - border
+  - deathArea
+  - ballChild
   layers:
   - Default
   - TransparentFX
@@ -14,7 +17,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - foreground
   - 
   - 
   - 

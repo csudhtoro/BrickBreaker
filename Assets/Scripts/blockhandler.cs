@@ -15,13 +15,13 @@ public class blockhandler : MonoBehaviour
     public Transform multiBallBlockObj;
     public Transform indestructibleBlockObj;
     public Transform slowBallDownBlockObj;
-    bool triggerOn = false;
 
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Random random = new Random();
-        int whichPowerUp = Random.Range(0, 30);
+        //int whichPowerUp = Random.Range(5, 9);
+        int whichPowerUp = 5;
 
         Instantiate(boomObj, transform.position, boomObj.rotation);
         Destroy(gameObject);
@@ -70,9 +70,26 @@ public class blockhandler : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.name == "ball")
+        if(collision.gameObject.tag == "ballChild")
         {
-            Debug.Log("trigger is on and ball has hit the block");
+            Debug.Log("In OnTriggerEnter");
+            Destroy(gameObject);
+        }
+    }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "ballChild")
+        {
+            Debug.Log("In OnTriggerStay");
+            Destroy(gameObject);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "ball")
+        {
+            Debug.Log("In OnTriggerStay");
             Destroy(gameObject);
         }
     }

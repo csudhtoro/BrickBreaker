@@ -12,9 +12,7 @@ public class borderHandler : MonoBehaviour
 
         if (collision.gameObject.name == "metalBall")
         {
-            Debug.Log(collision.gameObject.name);
             ballCollision = collision.gameObject.GetComponent<Collider2D>();
-            ballCollision.isTrigger = false;
         }
 
     }

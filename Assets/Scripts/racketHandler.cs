@@ -5,8 +5,9 @@ using UnityEngine;
 public class racketHandler : MonoBehaviour
 {
 
-    GameObject ball;
+    GameObject ball, deathBound;
     GameObject[] balls;
+    GameObject[] borders;
     Collider2D ballCollision;
 
     public string axis = "Horizontal";
@@ -15,7 +16,11 @@ public class racketHandler : MonoBehaviour
 
     private void Start()
     {
-        balls = GameObject.FindGameObjectsWithTag("ball");
+        ball = GameObject.FindGameObjectWithTag("ball");
+        
+        borders = GameObject.FindGameObjectsWithTag("border");
+        deathBound = GameObject.FindGameObjectWithTag("deathArea");
+        Debug.Log(gameObject.layer);
     }
 
 
@@ -27,7 +32,7 @@ public class racketHandler : MonoBehaviour
 
         float p = Input.GetAxisRaw(axis);
         GetComponent<Rigidbody2D>().velocity = new Vector2(p, 0) * paddleSpeed;
-        
+        balls = GameObject.FindGameObjectsWithTag("ball");
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -41,7 +46,7 @@ public class racketHandler : MonoBehaviour
         else if (collision.gameObject.name == "speedPaddleUpBlockObj(Clone)") speedPaddleUp();
         else if (collision.gameObject.name == "slowBallDownBlockObj(Clone)") slowBallsDown();
         else if (collision.gameObject.name == "speedBallUpBlockObj(Clone)") speedBallsUp();
-        //else if (collision.gameObject.name == "indestructibleBallBlockObj(Clone)") indestructibleBall();
+        else if (collision.gameObject.name == "indestructibleBlockObj(Clone)") indestructibleBall();
 
         else if (collision.gameObject.name == "multiBallBlockObj(Clone)")
         {
@@ -56,11 +61,10 @@ public class racketHandler : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        else if (collision.gameObject.name == "metalBall")
+
+        else if (collision.gameObject.name == "instaKillBlockObj(Clone)")
         {
-            Debug.Log(collision.gameObject.name);
-            ballCollision = collision.gameObject.GetComponent<Collider2D>();
-            ballCollision.isTrigger = false;
+            Destroy(gameObject);
         }
     }
 
@@ -108,44 +112,63 @@ public class racketHandler : MonoBehaviour
     void normalizePaddleSpeed() { paddleSpeed = 13; }
 
 
-
-
     //Functions modifying the ball
     void slowBallsDown()
     {
-        foreach (GameObject ballobj in balls)
+        foreach (GameObject ballObj in balls)
         {
-            ballobj.SendMessage("decreaseSpeed", 0.5f, SendMessageOptions.RequireReceiver);
+            ballObj.SendMessage("decreaseSpeed", 0.5f, SendMessageOptions.RequireReceiver);
         }
         Invoke("normalizeBallSpeeds", 5);
     }
 
     void speedBallsUp()
     {
-        foreach (GameObject ballobj in balls)
+        foreach (GameObject ballObj in balls)
         {
-            ballobj.SendMessage("increaseSpeed", 0.5f, SendMessageOptions.RequireReceiver);
+            ballObj.SendMessage("increaseSpeed", 0.5f, SendMessageOptions.RequireReceiver);
         }
         Invoke("normalizeBallSpeeds", 5);
     }
 
     void normalizeBallSpeeds()
     {
-        foreach (GameObject ballobj in balls)
+        foreach (GameObject ballObj in balls)
         {
-            ballobj.SendMessage("normalizeBallSpeed", 0.5f, SendMessageOptions.RequireReceiver);
-            ballobj.GetComponent<TrailRenderer>().emitting = false;
+            ballObj.SendMessage("normalizeBallSpeed", 0.5f, SendMessageOptions.RequireReceiver);
+            ballObj.GetComponent<TrailRenderer>().emitting = false;
         }
     }
 
-    /*    //NOT WORKING PROPERLY
     void indestructibleBall()
     {
-        foreach (GameObject ballobj in balls)
+        gameObject.layer = 8;
+        Debug.Log(gameObject.layer);
+        foreach (GameObject ballObj in balls)
         {
-            ballobj.SendMessage("indestructable", 0.5f, SendMessageOptions.RequireReceiver);
+            ballObj.layer = 8;
         }
+        foreach (GameObject border in borders)
+        {
+            border.layer = 8;
+        }
+        deathBound.layer = 8;
         Invoke("normalizeBall", 5);
-    }*/
+    }
+
+    void normalizeBall()
+    {
+        gameObject.layer = 0;
+        Debug.Log("ball trigger turning off!");
+        foreach (GameObject ballObj in balls)
+        {
+            ballObj.layer = 0;
+        }
+        foreach (GameObject border in borders)
+        {
+            border.layer = 0;
+        }
+        deathBound.layer = 0;
+    }
 }
 
