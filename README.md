@@ -1,5 +1,5 @@
 # BrickBreaker
-Unity Physics-based Brick Breaker Game
+Unity Physics-based Brick Breaker Game made for enjoyment
 
 Featuring a Prefabs PowerUp system as well as Paddle, Ball and Block scripts to govern behavior, physics and instantiation
 
